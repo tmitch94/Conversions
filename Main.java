@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 public class Main  extends Frame implements ActionListener {
 
     public static void createJframe() {
-        String button = null;
         final int HEIGHT = 400;
         final int WIDTH = 400;
         JFrame f = new JFrame("Conversions");
@@ -52,37 +51,6 @@ public class Main  extends Frame implements ActionListener {
             });
 
         }
-
-
-    //create action listeners for button 1
-//        if (Objects.equals(button1.getText(), "Length")) {
-//            button1.addActionListener(new ActionListener() {
-//                @Override
-//                public void actionPerformed(ActionEvent e) {
-//                    label.setText("Clicked");
-//                    System.out.println(button1.getText());
-//                }
-//            });
-//        }
-//        if (Objects.equals(button2.getText(), "Area")) {
-//            button2.addActionListener(new ActionListener() {
-//                @Override
-//                public void actionPerformed(ActionEvent e) {
-//                    label.setText("Area clicked");
-//                    System.out.println(button2.getText());
-//                }
-//            });
-//        }else
-//            button3.addActionListener(new ActionListener() {
-//                @Override
-//                public void actionPerformed(ActionEvent e) {
-//                    label.setText("Volume clicked");
-//                }
-//            });
-
-
-
-
 
     @Override
     public void actionPerformed(ActionEvent e) {
